@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.page-width {
+    max-width: 1920px;
+    margin: auto;
+
+}
+
+.navbar .main-logo {
+    border-left: 1px solid #4B5965;
+}
+
+
+
+.header-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem 1.5rem; */
+    border-bottom: 1px solid #4B5965;
+    background: #161D27;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header-line .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+
+/* .header-line .line {
+    border-right: 1px solid #4B5965;
+    padi
+} */
+
+.header-line p {
+    color: #FFF;
+    font-family: 'Outfi', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.header-line .contact-info p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 150px;
+    width: 100%;
+    background-color: transparent;
+    /* Transparent black background */
+    backdrop-filter: blur(1px);
+    height: max-content;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+
+
+}
+
+.navbar .get-consult {
+    display: flex;
+    padding: 13px 25px;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color: #D1B06B;
+    background-color: #2E3947;
+    border: 1px solid #D1B06B;
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.burger-btn {
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.menu {
+    transition: .3s ease-in-out;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 1rem;
+    background: #f5f5f5;
+
+}
+
+.menu ul {
+    list-style: none;
+
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #FFF !important;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.menu ul li a {
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    width: 100%;
+    text-decoration: none;
+}
+
+
+.nav-list {
+    display: none;
+    list-style: none;
+
+    cursor: pointer;
+}
+
+
+@media (min-width: 800px) {
+    .burger-btn {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 1rem;
+
+    }
+  
+}
+
+/* @media (max-width: 800px) {
+    nav .get-consult{
+        display: none;
+    }
+} */
+
+
+
+/* ------------------------------------------------------home page css starts here---------------------  */
+
+
+
+.hero-main {
+    width: 100%;
+    height: 90vh;
+    background: url(../imgs/main-hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
