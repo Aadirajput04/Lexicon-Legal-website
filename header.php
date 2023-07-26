@@ -8,27 +8,28 @@
 
 <header>
     <nav class='navbar page-width'>
-        <img class="main-logo" src="./imgs/nav-logo.png" alt="" width="247">
+        <a href="./index.php">
+            <img class="main-logo" src="./imgs/nav-logo.png" alt="" width="247"></a>
         <img class='burger-btn' src="https://www.svgrepo.com/show/322481/hamburger-menu.svg" alt="burger-manu">
         <ul class='nav-list '>
-            <li><a href=""> Home</a></li>
-            <li><a href=""> About</a></li>
-            <li><a href=""> services</a></li>
-            <li><a href=""> Our Team</a></li>
-            <li><a href=""> Reviews</a></li>
-            <li><a href=""> Contact Us</a></li>
+            <li><a href="./index.php"> Home</a></li>
+            <li><a href="./About-us.php"> About us</a></li>
+            <li><a href="./services.php"> services</a></li>
+            <li><a href="./Our-team.php"> Our Team</a></li>
+            <li><a href="./Reviews.php"> Reviews</a></li>
+            <li><a href="./contact-us.php"> Contact Us</a></li>
         </ul>
         <p> <a class="get-consult" href="#">Get consultation <img src="./imgs/right-arrowsvg.svg" alt=""></a></p>
 
     </nav>
     <div class="menu hidden page-width">
         <ul>
-            <li><a href=""> Home</a></li>
-            <li><a href=""> About</a></li>
-            <li><a href=""> services</a></li>
-            <li><a href=""> Our Team</a></li>
-            <li><a href=""> Reviews</a></li>
-            <li><a href=""> Contact Us</a></li>
+            <li><a href="./index.php"> Home</a></li>
+            <li><a href="./About-us.php"> About us</a></li>
+            <li><a href="./services.php"> services</a></li>
+            <li><a href="./Our-team.php"> Our Team</a></li>
+            <li><a href="./Reviews.php"> Reviews</a></li>
+            <li><a href="./contact-us.php"> Contact Us</a></li>5t4r
         </ul>
     </div>
 </header>

@@ -14,11 +14,11 @@
 
 }
 
-.navbar .main-logo {
+/* .navbar .main-logo {
     border-left: 1px solid #4B5965;
 }
 
-
+ */
 
 .header-line {
     display: flex;
@@ -89,7 +89,7 @@
 
 }
 
-.navbar .get-consult {
+.get-consult {
     display: flex;
     padding: 13px 25px;
     text-decoration: none;
@@ -107,6 +107,13 @@
     line-height: normal;
     text-transform: capitalize;
 }
+
+
+
+
+
+
+
 
 .burger-btn {
     width: 2.5rem;
@@ -174,7 +181,7 @@ ul li a {
         gap: 1rem;
 
     }
-  
+
 }
 
 /* @media (max-width: 800px) {
@@ -191,8 +198,227 @@ ul li a {
 
 .hero-main {
     width: 100%;
-    height: 90vh;
+    /* height: 90vh; */
     background: url(../imgs/main-hero-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+
+.get-consult-btn {
+    display: flex;
+    padding: 13px 25px;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color: #D1B06B;
+    background-color: #2E3947;
+    border: 1px solid #D1B06B;
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    width: max-content;
+    margin-top: 14px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+p {
+    color: #D7D7D7;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    text-transform: capitalize;
+}
+
+span {
+    color: #D1B06B;
+}
+
+.hero-main .hero-main-box {
+    padding: 80px 150px;
+
+}
+
+
+.hero-main .hero-main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 724px;
+}
+
+
+/* =============================================================about=section starts here================================ */
+
+
+.about-us-section-box {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.about-us-section-box .left-about-box {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.about-us-section-box .left-about-box img {
+    width: 771px;
+    height: 423px;
+}
+
+.about-us-section-box .left-about-box img:first-child {
+    border-radius: 80px 0px 0px 0px;
+}
+
+.about-us-section-box .right-about-box h2 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+
+
+.about-us-section-box h4 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.about-us-section-box p {
+    color: #7F7F7F;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 145% */
+    text-transform: capitalize;
+}
+
+
+.about-us-section-box .verified-lebele-about {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+
+.about-us-section-box .right-about-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+}
+
+
+
+
+
+
+.about-us-section-box .right-about-box a {
+    display: flex;
+    padding: 13px 25px;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color: #D1B06B;
+    background-color: #2E3947;
+    border: 1px solid #D1B06B;
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    width: max-content;
+    margin-top: 10px;
+}
+
+
+/* ================================================================head lable box css starts here========================= */
+
+
+
+
+.head-lable-box {
+    width: 100%;
+    height: 500px;
+    background: url(../imgs/all-pages-head-lable-box.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.head-lable-box .head-lable-text {
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px 150px 0 150px;
+}
+
+.head-lable-box .head-lable-text h1 {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.head-lable-box .head-lable-text img {
+    padding: 8px;
+}
+
+
+/* ===================================================our team section starts here=======================================================/ */
+
+
+.Our-team-main-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
 }
