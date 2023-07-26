@@ -1,4 +1,5 @@
 <section class="about-us-section-box page-width">
+    <img class="hammer-vector" src="./imgs/hammer.svg" alt="">
     <div class="left-about-box">
 
         <img src="./imgs/atorney-second img.jpg" alt="">

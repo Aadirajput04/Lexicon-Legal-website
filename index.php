@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/5f77a54189.js" crossorigin="anonymous"></script>
     <title>HOME</title>
 </head>
 
@@ -41,6 +42,12 @@
     include "about-section.php";
 
     ?>
+    <?php
+    
+    include "services-section.php";
+
+    ?>
+
 
 <?php
     

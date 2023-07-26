@@ -275,7 +275,7 @@ span {
 
     padding-top: 4rem;
     padding-bottom: 4rem;
-
+    position: relative;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -290,6 +290,15 @@ span {
 .about-us-section-box .left-about-box img {
     width: 771px;
     height: 423px;
+}
+
+
+
+.about-us-section-box .hammer-vector {
+    position: absolute;
+
+    right: 0;
+    top: 0;
 }
 
 .about-us-section-box .left-about-box img:first-child {
@@ -420,5 +429,268 @@ span {
     flex-direction: column;
     gap: 15px;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.our-team-box-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.Our-team-main-box h4 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Our-team-main-box h2 {
+    color: #2E3947;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* max-width: 811px; */
+
+    text-transform: capitalize;
+}
+
+.Our-team-main-box p {
+    color: #7F7F7F;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 145% */
+    text-transform: capitalize;
+
+
+}
+
+
+.members-team .align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.members-team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 27px;
+    padding: 15px;
+}
+
+.members-team .member-name {
+    padding: 15px;
+}
+
+.members-team .member-info {
+    background: #fff;
+    box-shadow: 0px 15px 33px 0px rgba(0, 0, 0, 0.05);
+    max-width: max-content;
+    position: absolute;
+    bottom: -97px;
+}
+
+.members-team .member-info .social-links {
+    border-bottom: 1px solid #D1B06B;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 13px 15px;
+
+
+
+}
+
+
+
+.members-team h1 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+.members-team p {
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Our-team-main-box .meet-button {
+    margin-top: 8rem;
+}
+
+
+/* ==============================================================================services section starts here================================ */
+
+
+.services-main-box {
+    background: url(../imgs/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 4rem;
+    align-items: center;
+    /* justify-content: center; */
+
+
+}
+
+.services-main-box .services-head-text {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.services-main-box h4 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.services-main-box h2 {
+    color: #161D27;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.services-main-box p {
+    color: #7F7F7F;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 145% */
+    text-transform: capitalize;
+    max-width: 1068px;
+}
+
+.services-main-box .service-boxes .service-box {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.services-main-box .service-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+
+.services-main-box .service-box .service-btn{
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    background-color: #D1B06B;
+    padding: 13px 25px;
+    width: max-content;
+
+
+}
+.services-main-box .service-box a{
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #D1B06B;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    background-color: #fff;
+    padding: 13px 25px;
+    width: max-content;
+    border: 1px solid  #D1B06B;
+
+
+
+}
+
+
+
+
+.services-main-box .service-box h5 {
+    color: #161D27;
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.services-main-box .service-box p {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+   
+    /* 145% */
+    text-transform: capitalize;
 }
