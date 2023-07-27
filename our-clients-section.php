@@ -1,4 +1,4 @@
-<section class="our-client-main-box">
+<section class="our-client-main-box page-width  ">
 
     <div class="client-heding-text">
         <p>our Clients</p>
@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="client-brand-logo">
+    <div class="client-brand-logo hide-scroll">
 
         <img src="./imgs/brand-logo-1.png" alt="">
         <img src="./imgs/brand-logo-2.png" alt="">

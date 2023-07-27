@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+
+
+    <link rel="shortcut icon" href="./imgs/nav-logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/5f77a54189.js" crossorigin="anonymous"></script>
     <title>HOME</title>
 </head>
@@ -80,6 +83,23 @@
     ?>
 
 
+
+
+
+
+<?php
+    
+    include "contact-us-section.php";
+
+    ?>
+
+
+
+<?php
+    
+    include "footer.php";
+
+    ?>
 
 
 

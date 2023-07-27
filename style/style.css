@@ -801,11 +801,28 @@ span {
     justify-content: center;
     align-items: center;
 
-    overflow: auto;
+    gap: 30px;
 
 
 }
 
+.client-brand-logo {
+    overflow: auto;
+width: 100%;
+
+}
+
+
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+.hide-scroll {
+    -ms-overflow-style: auto;
+    scrollbar-width: none;
+}
 
 
 .client-heding-text {
@@ -845,6 +862,387 @@ span {
     justify-content: center;
     align-items: center;
     gap: 100px;
-   
+
+
+}
+
+
+/* ========================================================================footer section starts here========================= */
+
+footer {
+    background-color: #161D27;
+
+
+}
+
+footer .footer-upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+footer .footer-upper img {
+    padding: 70px 0;
+}
+
+
+
+footer .reach-us {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+
+footer .footer-middle {
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+footer .footer-middle a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+footer .footer-middle h6 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+
+
+footer .Legal {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+footer .Quick-Links {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+footer .f-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+.box-subscribe {
+    border-radius: 10px;
+    background-color: #011621;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-subscribe h1 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 81.25% */
+}
+
+.box-subscribe form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-subscribe input[type="email"] {
+    width: 100%;
+    padding: 13px;
+    color: #B9B9B9;
+    font-family: 'Outfit', sans-serif;
+    background-color: #02273A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.box-subscribe input[type="submit"] {
+    width: 100%;
+    padding: 13px;
+    color: #D1B06B;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    border: 1px solid #D1B06B;
+    background: #2E3947;
+}
+
+.box-subscribe p {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* ====================================================================contact - us section starts here  ========================== */
+.contact-main-box {
+    padding-top: 3rem;
+}
+
+.contact-main-box .contact-main-img {
+    width: 1105px;
+    /* position: absolute; */
+
+}
+
+.contact-main-box .contact-us-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.contact-main-box {
+    position: relative;
+}
+
+
+.contact-us-box .contact-box {
+    width: 805px;
+    height: 758px;
+    /* margin: 20px auto; */
+    background-color: #fff;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.09);
+    z-index: 2;
+    position: absolute;
+    /* position: absolute; */
+    left: 130px;
+    bottom: 88px;
+}
+
+
+
+
+
+.contact-us-box input#name {
+    color: #7F7F7F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.contact-us-box input#email {
+    color: #7F7F7F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-us-box input#subject {
+    color: #7F7F7F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.contact-us-box input#message {
+    color: #7F7F7F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+.contact-us-box .contact-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-us-box .contact-input {
+    width: 100%;
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+}
+
+.contact-us-box .contact-message {
+    width: 100%;
+    height: 5em;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    color: #7F7F7F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+.contact-us-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.contact-us-box .contact-submit {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #D1B06B;
+    background: #2E3947;
+    color: #D1B06B;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.contact-us-box h4 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.contact-us-box h1 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+footer .footer-bottom a {
+    text-decoration: underline;
+    color: #7F7F7F;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+footer .footer-bottom p {
+    padding: 20px 0;
+    color: #7F7F7F;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
