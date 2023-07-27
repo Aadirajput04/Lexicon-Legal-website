@@ -1,4 +1,5 @@
-<section class="services-main-box">
+<section class="services-main-box page-width">
+    <img class="justice-img" src="./imgs/justice.svg" alt="">
     <div class="services-head-text">
         <h4>Services</h4>
         <img src="./imgs/line-dot-line.svg" alt="">

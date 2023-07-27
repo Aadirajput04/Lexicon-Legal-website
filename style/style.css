@@ -556,15 +556,26 @@ span {
     background: url(../imgs/services.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     gap: 20px;
     flex-direction: column;
     padding-top: 4rem;
+    padding-bottom: 4rem;
     align-items: center;
     /* justify-content: center; */
+    position: relative;
 
+
+}
+
+
+
+.services-main-box .justice-img {
+    position: absolute;
+    left: -20px;
+    top: 20px;
 
 }
 
@@ -619,17 +630,17 @@ span {
     gap: 10px;
     background-color: #fff;
     padding: 20px;
-
+    z-index: 2;
 }
 
-.services-main-box .service-boxes{
+.services-main-box .service-boxes {
     display: flex;
     flex-direction: row;
     gap: 20px;
-   
+
 }
 
-.services-main-box .service-box .service-btn{
+.services-main-box .service-box .service-btn {
 
     display: inline-flex;
     align-items: center;
@@ -648,7 +659,8 @@ span {
 
 
 }
-.services-main-box .service-box a{
+
+.services-main-box .service-box a {
 
     display: inline-flex;
     align-items: center;
@@ -664,7 +676,7 @@ span {
     background-color: #fff;
     padding: 13px 25px;
     width: max-content;
-    border: 1px solid  #D1B06B;
+    border: 1px solid #D1B06B;
 
 
 
@@ -690,7 +702,149 @@ span {
     font-style: normal;
     font-weight: 400;
     line-height: 29px;
-   
+
     /* 145% */
     text-transform: capitalize;
+}
+
+
+/* =======================================================static section starts here========================================== */
+
+
+.statics-main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    /* padding-bottom: 5rem; */
+}
+
+
+.statics-main-box .picture-box {
+    background: url(../imgs/static-final.png);
+    /* height: 50vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 8rem;
+}
+
+.statics-main-box .statics-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+    padding: 34px;
+    text-align: center;
+    max-width: 1450px;
+    margin: 0 !important;
+    /* position: absolute;
+    bottom: -70px; */
+
+    translate: 0px -85px;
+    box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.09);
+
+}
+
+.left-static-p {
+    padding-left: 150px;
+    padding-right: 75px;
+}
+
+.right-static-p {
+    padding-right: 150px;
+    padding-left: 75px;
+}
+
+.center-static-p {
+    padding-left: 75px;
+
+    padding-right: 75px;
+}
+
+.statics-main-box .statics-info h1 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+.statics-main-box .statics-info p {
+    color: #2E3947;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* =========================================our clients section starts here=============================================================== */
+
+.our-client-main-box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: auto;
+
+
+}
+
+
+
+.client-heding-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.our-client-main-box .client-heding-text p {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.our-client-main-box .client-heding-text h3 {
+    color: #2E3947;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.our-client-main-box .client-brand-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+
 }

@@ -13,7 +13,7 @@
 
 <body>
 
-    <div class="head-lable-box">
+    <div class="head-lable-box page-width">
         <?php
     
         include "header.php";

@@ -1,4 +1,4 @@
-<section class="Our-team-main-box">
+<section class="Our-team-main-box page-width">
     <div class="our-team-box-text">
         <h4>Meet Our Team</h4>
         <img src="./imgs/line-dot-line.svg" alt="" width="100">
@@ -13,7 +13,7 @@
 
 
 
-    <div class="members-team">
+    <div class="members-team page-width">
         <div class="left-team-member align">
 
             <div class="member">

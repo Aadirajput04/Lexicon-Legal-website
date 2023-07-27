@@ -49,9 +49,33 @@
     ?>
 
 
-<?php
+    <?php
     
     include "ourteam-section.php";
+
+    ?>
+
+
+<?php
+    
+    include "statics-section.php";
+
+    ?>
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+    
+    include "our-clients-section.php";
 
     ?>
 
