@@ -30,7 +30,48 @@
 
 
 
+    <?php
+    
+    include "reviews-section.php";
 
+    ?>
+   <?php
+    
+    include "ourteam-section.php";
+
+    ?>
+
+
+<?php
+    
+    include "statics.php";
+
+    ?>
+
+<?php
+    
+    include "our-clients-section.php";
+
+    ?>
+
+<?php
+    
+    include "contact-us-section.php";
+
+    ?>
+
+
+
+
+
+
+
+
+    <?php
+    
+    include "footer.php";
+
+    ?>
 
 
 </body>

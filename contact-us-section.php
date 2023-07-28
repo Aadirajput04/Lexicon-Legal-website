@@ -1,4 +1,4 @@
-<section class="contact-main-box">
+<section class="contact-main-box page-width ">
 
     <div class="contact-us-box">
         <div class="contact-box">

@@ -20,6 +20,16 @@
 
  */
 
+
+
+.side-padding {
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+
+
 .header-line {
     display: flex;
     flex-direction: row;
@@ -28,8 +38,7 @@
     /* padding: 1rem 1.5rem; */
     border-bottom: 1px solid #4B5965;
     background: #161D27;
-    padding-left: 150px;
-    padding-right: 150px;
+
 }
 
 .header-line .contact-info {
@@ -75,10 +84,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 150px;
+
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 150px;
+
     width: 100%;
     background-color: transparent;
     /* Transparent black background */
@@ -184,11 +193,6 @@ ul li a {
 
 }
 
-/* @media (max-width: 800px) {
-    nav .get-consult{
-        display: none;
-    }
-} */
 
 
 
@@ -276,8 +280,7 @@ span {
     padding-top: 4rem;
     padding-bottom: 4rem;
     position: relative;
-    padding-left: 150px;
-    padding-right: 150px;
+
 }
 
 
@@ -431,8 +434,7 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
+
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -507,6 +509,14 @@ span {
     max-width: max-content;
     position: absolute;
     bottom: -97px;
+}
+
+.members-team .member img {
+
+    width: 520px;
+
+
+
 }
 
 .members-team .member-info .social-links {
@@ -717,6 +727,11 @@ span {
     align-items: center;
     justify-content: center;
     position: relative;
+    background: url(../imgs/static-final.png);
+    /* height: 50vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     /* padding-bottom: 5rem; */
 }
@@ -808,7 +823,7 @@ span {
 
 .client-brand-logo {
     overflow: auto;
-width: 100%;
+    width: 100%;
 
 }
 
@@ -1054,7 +1069,6 @@ footer .f-gap {
     /* margin: 20px auto; */
     background-color: #fff;
     padding: 50px;
-    border: 1px solid #ccc;
     box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.09);
     z-index: 2;
     position: absolute;
@@ -1244,5 +1258,423 @@ footer .footer-bottom p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+}
+
+
+
+/* =================================================================reviews section starts here================================= */
+
+.reviews-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    gap: 15px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.reviews-container .button-arrow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.reviews-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.reviews {
+    display: flex;
+    overflow: hidden;
+}
+
+
+.reviews .user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+
+
+}
+
+.reviews h5 {
+    color: #161D27;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.reviews p {
+    color: #7F7F7F;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 145% */
+    text-transform: capitalize;
+}
+
+.reviews .user-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review {
+    width: 780px;
+    height: 340px;
+
+    margin: 20px;
+    padding: 30px;
+    text-align: left;
+    display: none;
+    background-color: #FFF;
+    box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.09);
+}
+
+.review.active {
+    display: block;
+}
+
+.reviews-container .space {
+    margin: 15px;
+}
+
+.reviews-container h4 {
+    color: #2E3947;
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.reviews-container h1 {
+    color: #2E3947;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ======================================responsive code starts here================================================================== */
+
+
+
+
+
+@media only screen and (max-width: 1390px) {
+
+
+    .hero-main .hero-main-box {
+        padding: 45px 120px;
+    }
+
+
+    .side-padding {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+
+    .review {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .navbar {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+
+    ul li a {
+        font-size: 15px;
+        padding: 0.4rem;
+    }
+
+    .members-team .member img {
+        width: 360px;
+    }
+
+    .hero-main .hero-main-text {
+        width: 670px;
+    }
+
+    .services-main-box .service-boxes {
+        flex-wrap: wrap;
+    }
+
+    .services-main-box .service-boxes {
+        justify-content: center;
+    }
+
+
+
+    footer .footer-middle {
+        flex-wrap: wrap;
+    }
+
+    .about-us-section-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h2 {
+
+        font-size: 50px;
+    }
+
+    .left-static-p {
+        padding-left: 135px;
+        padding-right: 55px;
+    }
+
+    .center-static-p {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .right-static-p {
+        padding-right: 135px;
+        padding-left: 55px;
+    }
+
+    .services-main-box .service-box .service-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        text-decoration: none;
+        color: #FFF;
+        font-family: 'Outfit', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        background-color: #D1B06B;
+        padding: 10px 16px;
+        width: max-content;
+    }
+
+
+    .contact-us-box h4 {
+        font-size: 30px;
+    }
+
+    .contact-us-box h1 {
+        font-size: 40px;
+    }
+
+    .contact-us-box input#name {
+        font-size: 17px;
+    }
+
+
+    .contact-us-box input#email {
+        font-size: 17px;
+    }
+
+    .contact-us-box .contact-input {
+        padding: 12px;
+    }
+
+    .contact-us-box input#subject {
+        font-size: 17px;
+    }
+
+    .contact-us-box .contact-message {
+        font-size: 17px;
+    }
+
+    .contact-us-box .contact-submit {
+        padding: 12px;
+        font-size: 17px;
+    }
+
+    footer .footer-upper img {
+        padding: 45px 0;
+    }
+
+
+
+
+    .reviews p {
+        font-size: 17px;
+    }
+
+    .statics-main-box .statics-info h1 {
+        font-size: 40px;
+    }
+
+    .statics-main-box .statics-info p {
+        font-size: 18px;
+    }
+
+    .services-main-box .service-box a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        text-decoration: none;
+        color: #D1B06B;
+        font-family: 'Outfit', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        background-color: #fff;
+        padding: 10px 16px;
+        width: max-content;
+        border: 1px solid #D1B06B;
+    }
+
+    .our-team-box-text {
+        gap: 10px;
+
+    }
+
+    .Our-team-main-box h4 {
+        font-size: 30px;
+    }
+
+    .Our-team-main-box h2 {
+        font-size: 40px;
+    }
+
+    .Our-team-main-box p {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+    .services-main-box .service-box p {
+        font-size: 17px;
+    }
+
+    .services-main-box .service-box h5 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .get-consult-btn {
+        padding: 10px 15px;
+
+
+    }
+
+    .get-consult {
+        padding: 11px 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1280px) {
+
+    .side-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    h2 {
+        font-size: 47px;
+    }
+    p {
+        font-size: 13px;
+        max-width: 450px;
+    }
+
+
+    .get-consult {
+        padding: 10px 10px;
+    }
+    .header-line p {
+        font-size: 15px;
+    }
+    .hero-main .hero-main-box {
+        padding: 18px 60px;
+    }
+
+    .get-consult{
+        font-size: 15px;
+    }
+    .get-consult-btn{
+        font-size: 15px;
+        margin: 0;
+    }
+
+
+
+    .about-us-section-box .right-about-box{
+        align-items: center;
+    }
+
+    .social-links img{
+        width: 30px;
+    }
+
+    .members-team .member-info .social-links {
+        gap: 20px;
+        padding: 8px 15px;
+    }
+
+
+    .members-team h1 {
+
+        font-size: 29px;
+    }
+
+
+
+    .members-team .member-info {
+        bottom: -83px;
+    }
+
+.our-team-box-text p{
+max-width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 }

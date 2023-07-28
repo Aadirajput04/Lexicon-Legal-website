@@ -1,11 +1,11 @@
-<footer class="page-width">
+<footer class="page-width ">
 
-    <div class="footer-upper">
-        <img src="./imgs/nav-logo.png" alt="" width="444">
+    <div class="footer-upper side-padding">
+        <img src="./imgs/nav-logo.png" alt="" >
 
 
     </div>
-    <div class="footer-middle">
+    <div class="footer-middle side-padding">
 
 
         <div class="reach-us">
@@ -39,12 +39,12 @@
 
             <h6>Quick Links</h6>
             <div class="quick-links-content f-gap">
-                 <a href="#"> Home</a>
-                <a href="#"> About Us</a>
-                <a href="#"> Services</a>
-                <a href="#"> Our Team</a>
-                <a href="#"> Reviews</a>
-                <a href="#"> Contact Us</a>
+                 <a href="./index.php"> Home</a>
+                <a href="./About-us.php"> About Us</a>
+                <a href="./services.php"> Services</a>
+                <a href="./Our-team.php"> Our Team</a>
+                <a href="./Reviews.php"> Reviews</a>
+                <a href="./contact-us.php"> Contact Us</a>
             </div>
 
         </div>
@@ -62,7 +62,7 @@
 
 
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom side-padding">
 
         <p>© Copyright 2023 | <a href="">Lexicon Legal </a> | All right reserved. | Website Developed by Nerd's House
         </p>

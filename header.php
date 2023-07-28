@@ -1,4 +1,4 @@
-<div class="header-line page-width">
+<div class="header-line page-width side-padding">
     <p>Mon – Sun: 9.00 am – 8.00pm</p>
     <div class="contact-info">
         <p class="line"> <img src="./imgs/mail.svg" alt=""> info@lexiconlegal.in</p>
@@ -7,7 +7,7 @@
 </div>
 
 <header>
-    <nav class='navbar page-width'>
+    <nav class='navbar page-width side-padding'>
         <a href="./index.php">
             <img class="main-logo" src="./imgs/nav-logo.png" alt="" width="247"></a>
         <img class='burger-btn' src="https://www.svgrepo.com/show/322481/hamburger-menu.svg" alt="burger-manu">

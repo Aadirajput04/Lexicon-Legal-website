@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <link rel="shortcut icon" href="./imgs/nav-logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./imgs/favicon-icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/5f77a54189.js" crossorigin="anonymous"></script>
     <title>HOME</title>
 </head>
 
 <body>
 
-    <section class="hero-main page-width">
+    <section class="hero-main page-width ">
 
         <?php
     
@@ -23,7 +24,7 @@
 
     ?>
 
-        <div class="hero-main-box">
+        <div class="hero-main-box side-padding">
 
             <div class="hero-main-text">
                 <h2>Protecting <span>&</span> Facilitating Business With Relentless Legal Force</h2>
@@ -66,6 +67,15 @@
     ?>
 
 
+
+
+<?php
+    
+    include "reviews-section.php";
+
+    ?>
+
+    
 
 
 

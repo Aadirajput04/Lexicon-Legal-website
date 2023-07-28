@@ -1,4 +1,4 @@
-<section class="statics-main-box page-width">
+<section class="statics-main-box page-width side-padding">
 
     <div class="picture-box">
         <img src="./imgs/static-play.png" alt="">

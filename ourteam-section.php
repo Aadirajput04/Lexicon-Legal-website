@@ -13,7 +13,7 @@
 
 
 
-    <div class="members-team page-width">
+    <div class="members-team page-width side-padding">
         <div class="left-team-member align">
 
             <div class="member">

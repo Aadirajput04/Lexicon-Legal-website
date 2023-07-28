@@ -1,4 +1,4 @@
-<section class="about-us-section-box page-width">
+<section class="about-us-section-box page-width side-padding">
     <img class="hammer-vector" src="./imgs/hammer.svg" alt="">
     <div class="left-about-box">
 
