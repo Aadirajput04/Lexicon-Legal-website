@@ -519,6 +519,12 @@ span {
 
 }
 
+.user-details .comma {
+    width: 100px;
+}
+
+
+
 .members-team .member-info .social-links {
     border-bottom: 1px solid #D1B06B;
     display: flex;
@@ -870,6 +876,12 @@ span {
     text-transform: capitalize;
 }
 
+
+
+
+.user-info img {
+    width: 100px;
+}
 
 .our-client-main-box .client-brand-logo {
     display: flex;
@@ -1611,6 +1623,7 @@ footer .footer-bottom p {
     h2 {
         font-size: 47px;
     }
+
     p {
         font-size: 13px;
         max-width: 450px;
@@ -1620,28 +1633,31 @@ footer .footer-bottom p {
     .get-consult {
         padding: 10px 10px;
     }
+
     .header-line p {
         font-size: 15px;
     }
+
     .hero-main .hero-main-box {
         padding: 18px 60px;
     }
 
-    .get-consult{
+    .get-consult {
         font-size: 15px;
     }
-    .get-consult-btn{
+
+    .get-consult-btn {
         font-size: 15px;
         margin: 0;
     }
 
 
 
-    .about-us-section-box .right-about-box{
+    .about-us-section-box .right-about-box {
         align-items: center;
     }
 
-    .social-links img{
+    .social-links img {
         width: 30px;
     }
 
@@ -1662,19 +1678,116 @@ footer .footer-bottom p {
         bottom: -83px;
     }
 
-.our-team-box-text p{
-max-width: 100%;
+    .our-team-box-text p {
+        max-width: 100%;
+
+    }
+
 
 }
 
 
 
 
+@media only screen and (max-width: 1280px) {
+    .members-team .member img {
+        width: 300px;
+    }
+
+    .social-links {
+        gap: 15px;
+        padding: 4px 12px;
+    }
+
+    .members-team h1 {
+        font-size: 23px;
+    }
+
+
+    .members-team .member-name {
+        padding: 9px;
+    }
+
+    .members-team .member-info {
+        bottom: -63px;
+    }
+
+    .Our-team-main-box .meet-button {
+        margin-top: 5rem;
+    }
+
+    .services-main-box .justice-img {
+        width: 300px;
+    }
+
+
+    .statics-main-box .statics-info {
+
+        padding: 25px;
+        translate: 0px -60px;
+    }
+
+
+    .statics-main-box .picture-box {
+        padding: 5rem;
+    }
+
+    .picture-box img {
+        width: 80px;
+    }
 
 
 
 
+    .reviews-container h1 {
+        font-size: 35px;
+    }
+
+    .reviews-container {
+        gap: 10px;
+    }
+
+    .reviews-slider {
+        padding-top: 0;
+    }
+
+
+    .center-static-p {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .left-static-p {
+        padding-left: 110px;
+        padding-right: 35px;
+    }
+
+    .right-static-p {
+        padding-right: 100px;
+        padding-left: 35px;
+    }
+
+    .user-info img {
+        width: 75px;
+    }
+
+    .reviews h5 {
+        font-size: 25px;
+    }
+
+    .user-details .comma {
+        width: 70px;
+    }
+
+    .review {
+        padding: 22px;
+        margin: 15px;
+    }
 
 
 
+
+    .reviews .user-info {
+        gap: 10px;
+    }
 }

@@ -10,14 +10,14 @@
             <div class="review">
                 <div class="user-details">
                     <div class="user-info">
-                        <img src="./imgs/user-dp.png" alt="" width="100">
+                        <img src="./imgs/user-dp.png" alt="" >
                         <div class="name-star">
                             <h5>alone musk</h5>
                             <img src="./imgs/stars.png" alt="">
                         </div>
                     </div>
 
-                    <img src="./imgs/comma.png" alt="">
+                    <img class="comma" src="./imgs/comma.png" alt="">
                 </div>
 
                 <div class="user-review-text">
@@ -30,14 +30,14 @@
             <div class="review">
                 <div class="user-details">
                     <div class="user-info">
-                        <img src="./imgs/user-dp.png" alt="" width="100">
+                        <img src="./imgs/user-dp.png" alt="" >
                         <div class="name-star">
                             <h5>ashu pandey</h5>
                             <img src="./imgs/stars.png" alt="">
                         </div>
                     </div>
 
-                    <img src="./imgs/comma.png" alt="">
+                    <img class="comma" src="./imgs/comma.png" alt="">
                 </div>
 
                 <div class="user-review-text">
@@ -50,14 +50,14 @@
             <div class="review">
                 <div class="user-details">
                     <div class="user-info">
-                        <img src="./imgs/user-dp.png" alt="" width="100">
+                        <img src="./imgs/user-dp.png" alt="" >
                         <div class="name-star">
                             <h5>puvan sharma</h5>
                             <img src="./imgs/stars.png" alt="">
                         </div>
                     </div>
 
-                    <img src="./imgs/comma.png" alt="">
+                    <img class="comma" src="./imgs/comma.png" alt="">
                 </div>
 
                 <div class="user-review-text">
@@ -70,14 +70,14 @@
             <div class="review">
                 <div class="user-details">
                     <div class="user-info">
-                        <img src="./imgs/user-dp.png" alt="" width="100">
+                        <img src="./imgs/user-dp.png" alt="" >
                         <div class="name-star">
                             <h5>Aastha zudio</h5>
                             <img src="./imgs/stars.png" alt="">
                         </div>
                     </div>
 
-                    <img src="./imgs/comma.png" alt="">
+                    <img class="comma" src="./imgs/comma.png" alt="">
                 </div>
 
                 <div class="user-review-text">
@@ -90,14 +90,14 @@
             <div class="review">
                 <div class="user-details">
                     <div class="user-info">
-                        <img src="./imgs/user-dp.png" alt="" width="100">
+                        <img src="./imgs/user-dp.png" alt="" >
                         <div class="name-star">
                             <h5>shubham</h5>    
                             <img src="./imgs/stars.png" alt="">
                         </div>
                     </div>
 
-                    <img src="./imgs/comma.png" alt="">
+                    <img class="comma" src="./imgs/comma.png" alt="">
                 </div>
 
                 <div class="user-review-text">
@@ -110,14 +110,14 @@
             <div class="review">
                 <div class="user-details">
                     <div class="user-info">
-                        <img src="./imgs/user-dp.png" alt="" width="100">
+                        <img src="./imgs/user-dp.png" alt="" >
                         <div class="name-star">
                             <h5>vivek bhuva</h5>
                             <img src="./imgs/stars.png" alt="">
                         </div>
                     </div>
 
-                    <img src="./imgs/comma.png" alt="">
+                    <img class="comma" src="./imgs/comma.png" alt="">
                 </div>
 
                 <div class="user-review-text">
