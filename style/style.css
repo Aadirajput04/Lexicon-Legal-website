@@ -1967,7 +1967,7 @@ footer .footer-bottom p {
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 410px) {
 
     .header-line .contact-info a {
         display: block;
