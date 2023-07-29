@@ -6,7 +6,7 @@
             To answer any questions</h2>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have su alteration in some
             form,
-            by <br> injected humour, oir randomised workds which don't look even slightly believable.</p>
+            by <br></p> <p class="after-hide"> injected humour, oir randomised workds which don't look even slightly believable.</p>
     </div>
 
 

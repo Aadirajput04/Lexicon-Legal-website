@@ -1,4 +1,4 @@
-<section class="our-client-main-box page-width side-padding ">
+<section class="our-client-main-box page-width  ">
 
     <div class="client-heding-text">
         <p>our Clients</p>

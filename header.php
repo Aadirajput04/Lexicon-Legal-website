@@ -50,7 +50,7 @@
 
     btn.addEventListener('click', function () {
         if (menu.style.height == '0px') {
-            menu.style.height = '200px';
+            menu.style.height = '140px';
             navbar.style.boxShadow = 'none';
             menu.style.opacity = 1;
         } else {

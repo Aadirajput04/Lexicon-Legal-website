@@ -137,7 +137,7 @@
     opacity: 0;
     height: 0;
     padding: 1rem;
-    background: #f5f5f5;
+    background-color: #161D27;
 
 }
 
@@ -161,7 +161,7 @@ ul li a {
 }
 
 .menu ul li a {
-    margin-bottom: 1rem;
+
     cursor: pointer;
 
     width: 100%;
@@ -1971,6 +1971,7 @@ footer .footer-bottom p {
 
     .header-line .contact-info a {
         display: block;
+        padding: 7px 2px;
     }
 
     .header-line .contact-info p {
@@ -2104,7 +2105,7 @@ footer .footer-bottom p {
         gap: 5px;
     }
 
-    .services-main-box .after-hide {
+    .after-hide {
         display: none;
     }
 
@@ -2244,6 +2245,7 @@ footer .footer-bottom p {
     .our-client-main-box .client-brand-logo {
         gap: 20px;
     }
+
     footer .footer-middle {
         padding: 10px 20px;
     }
@@ -2251,9 +2253,11 @@ footer .footer-bottom p {
     footer .footer-middle {
         gap: 2rem;
     }
-    .box-subscribe h1{
+
+    .box-subscribe h1 {
         font-size: 20px;
     }
+
     footer .f-gap {
         gap: 10px;
     }
@@ -2263,12 +2267,20 @@ footer .footer-bottom p {
         padding: 25px 0;
     }
 
-footer .footer-upper img{
-    width: 167px;
-}
+    footer .footer-upper img {
+        width: 167px;
+    }
 
-footer .footer-bottom p {
-    font-size: 12px;
-}
+    footer .footer-bottom p {
+        font-size: 12px;
+    }
+
+
+
+
+
+    .contact-us-box .contact-box {
+        padding: 15px;
+    }
 
 }
