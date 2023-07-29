@@ -28,7 +28,7 @@
 
             <div class="hero-main-text">
                 <h2>Protecting <span>&</span> Facilitating Business With Relentless Legal Force</h2>
-                <img src="./imgs/linedot.svg" alt="" width="113">
+                <img class="line-line" src="./imgs/linedot.svg" alt="" >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus blandit diam. In hac habitasse
                     platea dictumst.</p>
                 <a class="get-consult-btn" href="#">Get consultation <img src="./imgs/right-arrowsvg.svg" alt=""></a>

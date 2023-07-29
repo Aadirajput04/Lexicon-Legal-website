@@ -4,7 +4,7 @@
         <h4>Services</h4>
         <img src="./imgs/line-dot-line.svg" alt="">
         <h2>Explore Our <span> Practice Arease</span></h2>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have su alteration in some
+        <p class="after-hide">There are many variations of passages of Lorem Ipsum available, but the majority have su alteration in some
             form, by injected humour, oir randomised workds which don't look even slightly believable.</p>
     </div>
 
