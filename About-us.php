@@ -23,7 +23,7 @@
 
         <div class="head-lable-text">
             <h1>About us</h1>
-            <img src="./imgs/linedot.svg" alt="" width="170">
+            <img class="line-dot-p" src="./imgs/linedot.svg" alt="" >
         </div>
     </div>
 

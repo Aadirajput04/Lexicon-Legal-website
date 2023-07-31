@@ -11,25 +11,25 @@
 
     <div class="service-boxes">
         <div class="service-box">
-            <img src="./imgs/service-1.png" alt="" width="78">
+            <img class="services-box-img" src="./imgs/service-1.png" alt="">
             <h5>Arbitration & Mediation</h5>
             <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
-            <a class="service-btn" href="#">Read more <img src="./imgs/white-arrow.png" alt="" width="28"></a>
+            <a class="service-btn" href="#">Read more <img  src="./imgs/white-arrow.png" alt="" width="28"></a>
         </div>
         <div class="service-box">
-            <img src="./imgs/service-2.png" alt="" width="78">
-            <h5>Arbitration & Mediation</h5>
-            <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
-            <a href="#">Read more <img src="./imgs/right-arrowsvg.svg" alt="" width="28"></a>
-        </div>
-        <div class="service-box">
-            <img src="./imgs/service-3.png" alt="" width="78">
+            <img class="services-box-img" src="./imgs/service-2.png" alt="" >
             <h5>Arbitration & Mediation</h5>
             <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
             <a href="#">Read more <img src="./imgs/right-arrowsvg.svg" alt="" width="28"></a>
         </div>
         <div class="service-box">
-            <img src="./imgs/service-4.png" alt="" width="78">
+            <img class="services-box-img"src="./imgs/service-3.png" alt="" >
+            <h5>Arbitration & Mediation</h5>
+            <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
+            <a href="#">Read more <img src="./imgs/right-arrowsvg.svg" alt="" width="28"></a>
+        </div>
+        <div class="service-box">
+            <img class="services-box-img" src="./imgs/service-4.png" alt="" >
             <h5>Arbitration & Mediation</h5>
             <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
             <a href="#">Read more <img src="./imgs/right-arrowsvg.svg" alt="" width="28"></a>
@@ -42,25 +42,25 @@
     </div>
     <div class="service-boxes">
         <div class="service-box">
-            <img src="./imgs/service-5.png" alt="" width="78">
+            <img class="services-box-img" src="./imgs/service-5.png" alt="" >
             <h5>Arbitration & Mediation</h5>
             <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
             <a href="#">Read more <img src="./imgs/right-arrowsvg.svg"alt="" width="28"></a>
         </div>
         <div class="service-box">
-            <img src="./imgs/service-6.png" alt="" width="78">
+            <img class="services-box-img" src="./imgs/service-6.png" alt="">
             <h5>Arbitration & Mediation</h5>
             <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
             <a href="#">Read more <img src="./imgs/right-arrowsvg.svg"alt="" width="28"></a>
         </div>
         <div class="service-box">
-            <img src="./imgs/service-7.png" alt="" width="78">
+            <img class="services-box-img" src="./imgs/service-7.png" alt="" >
             <h5>Arbitration & Mediation</h5>
             <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
             <a href="#">Read more <img src="./imgs/right-arrowsvg.svg" alt="" width="28"></a>
         </div>
         <div class="service-box">
-            <img src="./imgs/service-8.png" alt="" width="78">
+            <img class="services-box-img"src="./imgs/service-8.png" alt="" >
             <h5>Arbitration & Mediation</h5>
             <p>Lexicon Legal provides services like advising and handling arbitration disputes & matters....</p>
             <a href="#">Read more <img src="./imgs/right-arrowsvg.svg" alt="" width="28"></a>

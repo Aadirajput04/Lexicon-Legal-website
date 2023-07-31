@@ -37,7 +37,7 @@
 
 <?php
     
-    include "statics.php";
+    include "statics-section.php";
 
     ?>
 

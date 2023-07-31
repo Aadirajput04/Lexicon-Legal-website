@@ -139,46 +139,54 @@
 </div>
 
 <script>
-    const reviews = document.querySelectorAll('.review');
-    let currentIndex = 0;
-    const numReviewsToShow = 2;
+   
+  const reviews = document.querySelectorAll('.review');
+  let currentIndex = 0;
+  let numReviewsToShow = 2;
 
-    function showReviews() {
-        for (let i = 0; i < reviews.length; i++) {
-            reviews[i].classList.remove('active');
-        }
-
-        for (let i = 0; i < numReviewsToShow; i++) {
-            const indexToShow = (currentIndex + i) % reviews.length;
-            reviews[indexToShow].classList.add('active');
-        }
+  function showReviews() {
+    for (let i = 0; i < reviews.length; i++) {
+      reviews[i].classList.remove('active');
     }
 
-    function showPreviousReviews() {
-        currentIndex = (currentIndex - numReviewsToShow) % reviews.length;
-        if (currentIndex < 0) {
-            currentIndex = reviews.length + currentIndex;
-        }
-        showReviews();
+    for (let i = 0; i < numReviewsToShow; i++) {
+      const indexToShow = (currentIndex + i) % reviews.length;
+      reviews[indexToShow].classList.add('active');
     }
+  }
 
-    function showNextReviews() {
-        currentIndex = (currentIndex + numReviewsToShow) % reviews.length;
-        showReviews();
+  function showPreviousReviews() {
+    currentIndex = (currentIndex - numReviewsToShow) % reviews.length;
+    if (currentIndex < 0) {
+      currentIndex = reviews.length + currentIndex;
     }
+    showReviews();
+  }
 
-    document.querySelector('.reviews-container').addEventListener('click', function (event) {
-        const target = event.target;
-        if (target.matches('.left-arrow')) {
-            showPreviousReviews();
-        } else if (target.matches('.right-arrow')) {
-            showNextReviews();
-        }
-    });
+  function showNextReviews() {
+    currentIndex = (currentIndex + numReviewsToShow) % reviews.length;
+    showReviews();
+  }
 
-    showReviews(); // Show initial reviews
-
-
+function myFunction(x) {
+  if (x.matches) { // If media query matches
     
+    numReviewsToShow = 1
+  } else {
+   // write your code here that will show if window width is greater than 400px;
+  }
+}
+
+document.querySelector('.left-arrow').addEventListener('click', showPreviousReviews)
+document.querySelector('.right-arrow').addEventListener('click', showNextReviews)
+
+
+var x = window.matchMedia("(max-width: 410px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+showReviews();
+
+// Add a listener for changes in the window size
+window.addEventListener('resize', showReviews);
 
 </script>

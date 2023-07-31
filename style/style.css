@@ -414,7 +414,7 @@ span {
 .head-lable-box .head-lable-text {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
     padding: 100px 150px 0 150px;
 }
 
@@ -721,7 +721,7 @@ span {
 }
 
 .services-main-box .service-box p {
-    color: #2E3947;
+   
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -847,6 +847,14 @@ span {
 
 }
 
+
+
+.service-boxes .services-box-img{
+    width: 78px;
+
+}
+
+
 .client-brand-logo {
     overflow: auto;
     width: 100%;
@@ -950,6 +958,11 @@ footer .footer-middle {
     justify-content: space-between;
 
 }
+
+.line-dot-p {
+    width: 113px;
+}
+
 
 
 footer .footer-middle a {
@@ -1610,6 +1623,7 @@ footer .footer-bottom p {
 
     .services-main-box .service-box p {
         font-size: 17px;
+        line-height: normal;
     }
 
     .services-main-box .service-box h5 {
@@ -1874,6 +1888,11 @@ footer .footer-bottom p {
 
 
 
+    .head-lable-box .head-lable-text h1 {
+        font-size: 24px;
+    }
+
+
 
 
     .navbar .main-logo {
@@ -1974,6 +1993,32 @@ footer .footer-bottom p {
         padding: 7px 2px;
     }
 
+
+
+
+    .head-lable-box .head-lable-text {
+
+
+        padding: 15px 0 0 15px;
+    }
+
+
+
+
+    .head-lable-box .head-lable-text img {
+        padding: 0;
+    }
+
+
+
+    .head-lable-box {
+        height: 220px;
+    }
+
+
+
+
+
     .header-line .contact-info p {
         display: none;
     }
@@ -2002,7 +2047,8 @@ footer .footer-bottom p {
 
     .hero-main {
         background-size: cover;
-        height: 40vh;
+        /* height: 40vh; */
+        overflow: hidden;
     }
 
     .menu {
@@ -2141,10 +2187,11 @@ footer .footer-bottom p {
     }
 
     .members-team {
-        overflow-x: auto;
+        /* overflow-x: auto; */
         padding-bottom: 5rem;
+        overflow: auto;
+        width: 100%;
     }
-
 
 
     .statics-main-box .statics-info {
@@ -2181,6 +2228,12 @@ footer .footer-bottom p {
     .statics-main-box .second-row-statics {
         gap: 20px;
     }
+
+.service-boxes .services-box-img{
+    width: 40px;
+
+}
+
 
 
 
@@ -2273,6 +2326,7 @@ footer .footer-bottom p {
 
     footer .footer-bottom p {
         font-size: 12px;
+        text-align: left;
     }
 
 
@@ -2282,5 +2336,104 @@ footer .footer-bottom p {
     .contact-us-box .contact-box {
         padding: 15px;
     }
+
+    .about-us-section-box .right-about-box {
+        align-items: flex-start;
+    }
+
+
+
+    footer .footer-bottom p a {
+        font-size: 12px;
+
+    }
+
+    .line-dot-p {
+        width: 63px;
+    }
+
+
+
+    .services-main-box .service-box h5 {
+        font-size: 15px;
+    }
+    .services-main-box .service-boxes .service-box {
+        width: 264px;
+        padding: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+
+    .side-padding {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hero-main .hero-main-box {
+        padding: 40px 10px;
+    }
+
+    .about-us-section-box .left-about-box img {
+        width: 352px;
+        height: auto;
+    }
+
+    .about-us-section-box .left-about-box {
+
+        gap: 10px;
+    }
+
+
+    .about-us-section-box .hammer-vector {
+        top: 415px;
+    }
+
+    
+
+    .contact-us-box .contact-box {
+        width: 345px;
+    }
+
+
+
+    .contact-us-box .contact-box {
+
+        left: 15px;
+        bottom: 0;
+    }
+
+
+    .our-team-box-text {
+        gap: 10px;
+        padding: 0 32px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
