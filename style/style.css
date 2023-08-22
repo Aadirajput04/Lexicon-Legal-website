@@ -18,10 +18,6 @@
     width: 247px;
 }
 
-
-
-
-
 .side-padding {
     padding-left: 150px;
     padding-right: 150px;
@@ -88,6 +84,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -194,6 +191,63 @@ ul li a {
 
 
 }
+
+
+
+header li a:hover{
+    color: #D1B06B !important;
+}
+
+
+header li{
+    position: relative;
+}
+ /* header .nav-list .active-nav::after{
+
+content: "";
+width: 10px;
+height: 10px;
+
+background-color: #D1B06B;
+
+
+ } */
+
+
+
+ .nav-list a::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 1.8rem;
+    width: 6px;
+    height: 6px;
+  
+    background-color: transparent;
+    border-radius: 50%;
+    right: 50%;
+    transform: translate(50%);
+    transition: all 0.3s ease-in-out;
+  }
+  .active-nav {
+    color: #D1B06B !important;
+    font-weight: 600 !important;
+    
+  }
+  
+  .active-nav::after {
+    background-color: #D1B06B !important;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -721,7 +775,7 @@ span {
 }
 
 .services-main-box .service-box p {
-   
+
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -841,7 +895,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top: 10rem;
     gap: 30px;
 
 
@@ -849,7 +903,7 @@ span {
 
 
 
-.service-boxes .services-box-img{
+.service-boxes .services-box-img {
     width: 78px;
 
 }
@@ -2014,8 +2068,12 @@ footer .footer-bottom p {
     .head-lable-box {
         height: 220px;
     }
-
-
+    .side-padding {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    
+    
 
 
 
@@ -2042,7 +2100,7 @@ footer .footer-bottom p {
     }
 
     .hero-main .hero-main-box {
-        padding: 5px 20px;
+        padding: 20px 13px;
     }
 
     .hero-main {
@@ -2069,7 +2127,8 @@ footer .footer-bottom p {
 
 
     .get-consult-btn {
-        padding: 8px 20px;
+        padding: 7px 13px;
+        font-size: 12px ;
     }
 
     .hero-main-text .line-line {
@@ -2098,7 +2157,7 @@ footer .footer-bottom p {
     }
 
     .about-us-section-box {
-        justify-content: flex-start;
+        justify-content: space-around;
     }
 
     .about-us-section-box .right-about-box h2 {
@@ -2229,10 +2288,10 @@ footer .footer-bottom p {
         gap: 20px;
     }
 
-.service-boxes .services-box-img{
-    width: 40px;
+    .service-boxes .services-box-img {
+        width: 40px;
 
-}
+    }
 
 
 
@@ -2357,17 +2416,32 @@ footer .footer-bottom p {
     .services-main-box .service-box h5 {
         font-size: 15px;
     }
+
     .services-main-box .service-boxes .service-box {
         width: 264px;
         padding: 10px;
     }
-
+    .our-client-main-box{
+        margin-top: 0;
+    }
 
 }
 
 
 
+@media only screen and (max-width: 390px) {
 
+    .side-padding {
+        padding-left: 13px;
+        padding-right: 15px;
+    }
+    .contact-us-box .contact-box {
+        left: 10px;
+        bottom: 13px;
+    }
+    
+
+}
 
 
 @media only screen and (max-width: 375px) {
@@ -2397,7 +2471,7 @@ footer .footer-bottom p {
         top: 415px;
     }
 
-    
+
 
     .contact-us-box .contact-box {
         width: 345px;

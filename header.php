@@ -10,24 +10,29 @@
         <a href=""> <img src="./imgs/call.svg" alt=""> </a>
     </div>
 </div>
-
 <header>
-    <nav class='navbar page-width side-padding'>
+    <nav class="navbar page-width side-padding">
+
+
+
+
         <a href="./index.php">
             <img class="main-logo" src="./imgs/nav-logo.png" alt=""></a>
-        <img class='burger-btn' src="./imgs/menu-icon-aaa.svg" alt="burger-manu">
-        <ul class='nav-list '>
-            <li><a href="./index.php"> Home</a></li>
+        <img class="burger-btn" src="./imgs/menu-icon-aaa.svg" alt="burger-manu">
+        <ul class="nav-list ">
+            <li><a class="active-nav" href="./index.php"> Home</a></li>
             <li><a href="./About-us.php"> About us</a></li>
             <li><a href="./services.php"> services</a></li>
             <li><a href="./Our-team.php"> Our Team</a></li>
             <li><a href="./Reviews.php"> Reviews</a></li>
             <li><a href="./contact-us.php"> Contact Us</a></li>
         </ul>
+
+
         <p> <a class="get-consult" href="#">Get consultation <img src="./imgs/right-arrowsvg.svg" alt=""></a></p>
 
     </nav>
-    <div class="menu hidden page-width">
+    <div class="menu hidden page-width" style="height: 0px; opacity: 0;">
         <ul>
             <li><a href="./index.php"> Home</a></li>
             <li><a href="./About-us.php"> About us</a></li>
